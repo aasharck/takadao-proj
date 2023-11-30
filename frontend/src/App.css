@@ -1,0 +1,94 @@
+
+.search-container{
+  /* padding: 0 100px; */
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-container h2{
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+  letter-spacing: 0.48px;
+}
+
+.search-with-button{
+  display: flex;
+}
+
+.search-box input, .search-box select{
+  border: none;
+}
+.search-box, .venue-box input{
+  height: 50px;
+}
+.search-box .form-control:focus{
+  background-color: #1d1e21;
+  border: none;
+  color: white;
+  box-shadow: none;
+}
+
+.search-box .location{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 16px;
+}
+
+.search-box .location:focus{
+  box-shadow: none;
+}
+
+.search-box .input-group-text{
+  background-color: #212529;
+  border:0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 16px;
+}
+
+.btn-custom{
+  margin-left: 10px;
+  background-color: #D0FD3E;
+  color: black;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 16px;
+  padding: 16 50px;
+  border: 0;
+  width: 183px;
+  height: 50px;
+}
+
+.auto-suggestion-box{
+  position: absolute;
+  width: 100%;
+  background-color: #212529;
+}
+
+.auto-suggestion-box div{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.auto-suggestion-box div:hover{
+  background-color: #D0FD3E;
+  color: black;
+}
+
+@media (max-width: 768px) { 
+  .search-with-button{
+    display: block;
+  }
+
+  .search-with-button .btn-custom{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+}
