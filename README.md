@@ -19,6 +19,11 @@ go run main.go
 cd frontend
 ```
 
+2. Install dependencies
+```
+npm install
+```
+
 2. Start the frontend
 ```
 npm run dev
